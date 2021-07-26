@@ -1,0 +1,20 @@
+Enunciado do Desafio:
+
+2° Entrega - Gestão de Cadastros
+Criação de um sistema e-commerce para inventário de produtos e dados de clientes:
+Entregáveis:
+    Os dados de clientes, endereços e produtos devem estar devidamente estruturados
+    Dados no localstorage
+    Código fonte no github com o arquivo README detalhando as funcionalidades da programação
+
+
+    Linguagem utilizada:
+    * HTML5, CSS3, JavaScript Vanilla
+
+    o que foi utilizado:
+    * Foram criadas tres páginas uma principal como menu e as outras duas, uma de cadastro de cliente e uma de cadastro de produto, ambas com "botão voltar" com botão voltar
+    * utilizados forms html para captura dos dados
+    * utilizado a funçao getElementbyID para captura dos dados do formulario
+    * utilizado a funcao addEventListner para pegar eventos de envio
+    * utilizaçao de JSON.stringfy para conversao de string e gravação no localStorage
+    * regra para exibir mensagem de gravaçao concluida com sucesso utilizando funcao setTimeout

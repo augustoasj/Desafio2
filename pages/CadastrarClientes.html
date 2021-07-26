@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <title>Cadastro de Clientes</title>
+</head>
+
+<body>
+
+    <header>
+        <a id="voltar" href="../index.html"> V o l t a r </a>
+    </header>
+    <section>
+        <div class="card-cadastro">
+            <div id="novoCliente">
+                <form id="dadoscliente">
+                    <div class="dadospessoais">
+                        <div>
+                            <h1>Inserir Dados</h1>
+                            <label name="numcpf"> C.P.F..........: </label>
+                            <input type="number" id="numcpf" required autocomplete="off" maxlength="14" />
+                        </div>
+
+                        <div>
+                            <label name="nome"> Nome Completo..: </label>
+                            <input type="text" id="nome" required />
+                        </div>
+
+                        <div>
+                            <label name="telefone"> Telefone.......: </label>
+                            <input type="tel" id="telefone" autocomplete="off" required />
+                        </div>
+
+                        <div>
+                            <label name="nascimento"> Dia Nascimento.: </label>
+                            <input type="date" id="nascimento" required />
+                        </div>
+
+                        <div>
+                            <label name="email"> E-mail.........: </label>
+                            <input type="text" id="email" required />
+                        </div>
+
+                        <div>
+                            <label name="senha"> Senha..........: </label>
+                            <input type="password" id="senha" required />
+                        </div>
+                    </div>
+
+                    <div class="endereco">
+                        <div>
+                            <label name="cep"> CEP............: </label>
+                            <input type="number" id="cep" required />
+                        </div>
+                        <div>
+                            <label name="rua"> Rua............: </label>
+                            <input type="text" id="logradouro" required />
+                        </div>
+                        <div>
+                            <label name="complemento"> Complemento....: </label>
+                            <input type="text" id="complemento" required />
+                        </div>
+                        <div>
+                            <label name="numero"> Número.........: </label>
+                            <input type="number" id="numero" required />
+                        </div>
+                        <label name="bairro"> Bairro.........: </label>
+                        <input type="text" id="bairro" required />
+                        <div>
+                            <label name="municipio"> Municipio......:</label>
+                            <input type="text" id="municipio" required />
+                        </div>
+
+                        <div>
+                            <label name="uf"> UF.............:
+                                <select id="uf" required>
+                                    <option> </option>
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AP</option>
+                                    <option>AM</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PR</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>SE</option>
+                                    <option>TO</option>
+                                </select>
+                            </label>
+                        </div>
+                        <input id="buttom" type="submit" value=" Salvar " class="botao">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<script type="text/javascript" src="../js/clientes.js"></script>
+
+</html>

@@ -1,0 +1,83 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: auto;
+}
+
+body{
+    color: #fff;
+    background-color: #474a51;
+}
+
+header{
+    margin: 10px;
+}
+
+a{
+    padding: 5px;
+}
+a:hover{
+    color: #ff2800;
+}
+
+ul{
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+li{
+    width: 400px;
+    display: block;
+    list-style-type:none;   
+}
+
+li a{
+    width: 400px;
+    text-decoration: none;
+    color: #fff;
+}
+
+li a:hover{
+    width: 400px;
+    background-color: #fff;
+    color: #ff2800;
+}
+
+.card-cadastro{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dadospessoais{
+    display: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-top: 5px;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color:  #ff2800;
+    color:#fff;
+}
+
+#voltar{
+    text-decoration: none;
+    font-weight: bolder;
+    width: 100px;
+    background-color: #fff;
+}
